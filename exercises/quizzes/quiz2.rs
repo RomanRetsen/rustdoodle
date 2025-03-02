@@ -38,7 +38,7 @@ mod my_module {
                         result
                     }
                 }
-            }).collect
+            }).collect()
     }
     // TODO: Complete the function as described above.
     // pub fn transformer(input: ???) -> ??? { ??? }
@@ -52,7 +52,8 @@ fn main() {
 mod tests {
     // TODO: What do we need to import to have `transformer` in scope?
     // use ???;
-    use super::Command;
+    // use super::Command;
+    use supper::*;
 
     #[test]
     fn it_works() {
