@@ -3,3 +3,5 @@ target/
 .vscode/
 *.swp
 solutions
+.rustlings-state.txt
+.idea/
